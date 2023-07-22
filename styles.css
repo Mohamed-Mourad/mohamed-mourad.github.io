@@ -522,6 +522,14 @@ i {
       .fake-big-2 {
         display: none;
       }
+
+      .devLogo {
+          display: none;
+      }
+
+      .contact-logo {
+          display: none;
+      }
 }
 
 /* Large screens */
