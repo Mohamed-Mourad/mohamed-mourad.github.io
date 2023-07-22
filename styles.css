@@ -534,6 +534,26 @@ i {
     main {
         margin: 0;
     }
+
+    .contact-section {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          "T"
+          "BL"
+          "BR";
+      }
+    
+      .text-zone4 {
+        padding: 0.5rem;
+      }
+    
+      .contact-form {
+        width: 100%;
+      }
+    
+      .form-input-group textarea {
+        height: 20vh;
+      }
 }
 
 /* Large screens */
@@ -559,6 +579,34 @@ i {
     .navbar:hover .logo-text {
         left: 0px;
     }
+
+    .contact-section {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+          "T T"
+          "BL BR";
+      }
+    
+      .text-zone4 {
+        padding: 2rem;
+      }
+    
+      .contact-logo {
+        margin-top: 0;
+      }
+    
+      .contact-form {
+        max-width: 400px;
+      }
+    
+      .form-input-wrapper {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 0.3rem;
+      }
+    
+      .form-input-group textarea {
+        height: 25vh;
+      }
 }
 
 .dark {
