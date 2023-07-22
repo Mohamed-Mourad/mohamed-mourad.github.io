@@ -479,133 +479,94 @@ i {
 
 
 /* Small screens */
-@media only screen and (max-width: 600px) {
-    h1 {
-        font-size: 2.8rem;
-        line-height: 45px;
-        letter-spacing: -3px;
-        position: relative;
-    }
-
-    h2 {
-        font-size: 2.35rem;
-        line-height: 18px;
-        letter-spacing: -3px;
-        position: relative;
-    }
-
-    h3 {
-        margin-top: 30px;
-        color: var(--text-primary);
-        letter-spacing: 3px;
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+      }
+    
+      h1 {
+        font-size: 2.5rem;
+      }
+    
+      h2 {
+        font-size: 2.2rem;
+      }
+    
+      h3 {
         font-size: 12px;
-        font-weight: lighter;
-        position: relative;
-    }
-
-    p {
-        margin-bottom: 15px;
-        line-height: 1.5;
-    }
-
-    .navbar {
-        bottom: 0;
-        width: 100vw;
-        height: 5rem;
-    }
-
-    .logo {
-        display: none;
-    }
-
-    .navbar-nav {
-        flex-direction: row;
-    }
-
-    .nav-link {
-        justify-content: center;
-    }
-
-    /* HOME SECTION */
-    .devLogo {
-        display: none;
-    }
-
-    main {
-        margin: 0;
-    }
-
-    .contact-section {
-        grid-template-columns: 1fr;
-        grid-template-areas:
-          "T"
-          "BL"
-          "BR";
       }
     
+      .navbar {
+        width: 60px;
+      }
+    
+      .link-text {
+        display: none;
+      }
+    
+      .logo-text {
+        left: -100px;
+      }
+    
+      .text-zone {
+        padding-left: 2rem;
+      }
+    
+      .text-zone2,
+      .text-zone3,
       .text-zone4 {
-        padding: 0.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
       }
     
-      .contact-form {
-        width: 100%;
-      }
-    
-      .form-input-group textarea {
-        height: 20vh;
+      .fake-big-2 {
+        display: none;
       }
 }
 
 /* Large screens */
-@media only screen and (min-width: 600px) {
-    .navbar {
-        top: 0;
-        width: 5rem;
-        height: 100vh;
-    }
-
-    .navbar:hover {
-        width: 14rem;
-    }
-
-    .navbar:hover .link-text {
+@media only screen and (min-width: 1200px) {
+    body {
+        font-size: 18px;
+      }
+    
+      h1 {
+        font-size: 4rem;
+      }
+    
+      h2 {
+        font-size: 3.5rem;
+      }
+    
+      h3 {
+        font-size: 16px;
+      }
+    
+      .navbar {
+        width: 250px;
+      }
+    
+      .link-text {
         display: inline;
-    }
-
-    .navbar:hover .logo svg {
-        margin-left: 11rem;
-    }
-
-    .navbar:hover .logo-text {
-        left: 0px;
-    }
-
-    .contact-section {
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas:
-          "T T"
-          "BL BR";
       }
     
+      .logo-text {
+        left: -400px;
+      }
+    
+      .text-zone {
+        padding-left: 5rem;
+      }
+    
+      .text-zone2,
+      .text-zone3,
       .text-zone4 {
-        padding: 2rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
       }
     
-      .contact-logo {
-        margin-top: 0;
-      }
-    
-      .contact-form {
-        max-width: 400px;
-      }
-    
-      .form-input-wrapper {
-        grid-template-columns: 1fr 1fr;
-        grid-row-gap: 0.3rem;
-      }
-    
-      .form-input-group textarea {
-        height: 25vh;
+      .fake-big-2 {
+        display: block;
       }
 }
 
