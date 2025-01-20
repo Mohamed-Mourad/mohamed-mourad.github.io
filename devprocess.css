@@ -68,6 +68,7 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    text-align: start;
 }
 
 .process-list-icon-heading {
@@ -107,5 +108,13 @@
     .process-text-content {
         justify-self: center;
         text-align: center;
+    }
+
+    .process-img {
+        max-width: 90vw;
+    }
+
+    .process-img img {
+        max-width: 90vw;
     }
 }
