@@ -21,7 +21,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .navbar.hidden {
@@ -47,7 +47,6 @@
 .navbar .menu {
     display: flex;
     gap: 20px;
-    flex: 2;
     justify-content: center;
 }
 
@@ -64,7 +63,6 @@
 }
 
 .navbar .contact {
-    flex: 1;
     display: flex;
     justify-content: flex-end;
     align-items: center;
