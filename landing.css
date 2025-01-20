@@ -112,15 +112,35 @@ body {
 
 .image-grid img {
     width: 176px;
-    height: 176px;
+    aspect-ratio: 1/1;
     border-radius: 8px;
 }
 
-.transparent-box {
-    width: 176px;
-    height: 140px;
-    background-color: rgba(0, 0, 0, 0.00);
-    border-radius: 8px;
+@media (max-width: 768px) {
+    .welcome-section {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .text-content {
+        justify-self: center;
+        text-align: center;
+    }
+
+    .image-grid {
+        grid-area: I;
+        display: grid;
+        grid-template-columns: repeat(2, 0.5fr);
+        grid-template-rows: auto auto auto;
+        gap: 1rem;
+        justify-self: start;
+    }
+    
+    .image-grid img {
+        width: 40vw;
+        aspect-ratio: 1/1;
+    }
 }
 
 
@@ -358,7 +378,7 @@ body {
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
     pointer-events: none;
     z-index: -1;

@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const gridLayer = document.querySelector(".grid-layer");
 
-    const totalBoxes = 20;
+    const totalBoxes = 16;
     for (let i = 0; i < totalBoxes; i++) {
         const box = document.createElement("div");
         gridLayer.appendChild(box);
