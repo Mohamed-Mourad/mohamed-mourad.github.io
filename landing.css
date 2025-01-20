@@ -99,7 +99,8 @@ body {
     grid-template-columns: repeat(2, 0.5fr);
     grid-template-rows: auto auto auto;
     gap: 1rem;
-    justify-self: start;
+    justify-self: center;
+    align-self: center;
 }
 
 .image-grid> :first-child {

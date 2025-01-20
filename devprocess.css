@@ -1,0 +1,111 @@
+/* General container styles */
+.dev-process-section {
+    height: 100vh;
+}
+
+.dev-process-section {
+    display: grid;
+    grid-template-areas: "T I";
+    gap: 2rem;
+    padding: 2rem;
+}
+
+/* Text content styles */
+.process-text-content {
+    grid-area: T;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    justify-self: center;
+    align-self: center;
+}
+
+.process-heading-small {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #007BFF;
+    /* Small blue font */
+    margin: 0;
+}
+
+.process-heading-large {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.process-description {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.process-img {
+    grid-area: I;
+    justify-self: center;
+    align-self: center;
+}
+
+.process-img img {
+    border-radius: 8px;
+}
+
+/* List styles */
+.process-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.process-list-item {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.process-list-icon-heading {
+    display: flex;
+    flex-direction: row;
+}
+
+.process-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 1rem;
+    filter: invert(29%) sepia(96%) saturate(2676%) hue-rotate(203deg) brightness(95%) contrast(85%);
+}
+
+.process-list-heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.process-list-description {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 0.2rem;
+    line-height: 1.5;
+}
+
+
+@media (max-width: 768px) {
+    .dev-process-section {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .process-text-content {
+        justify-self: center;
+        text-align: center;
+    }
+}
