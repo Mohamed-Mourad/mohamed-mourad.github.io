@@ -136,6 +136,14 @@ body {
         gap: 1rem;
         justify-self: start;
     }
+
+    .image-grid> :first-child {
+        margin-top: 1.5em;
+    }
+    
+    .image-grid> :last-child {
+        margin-top: 5em;
+    }
     
     .image-grid img {
         width: 40vw;
