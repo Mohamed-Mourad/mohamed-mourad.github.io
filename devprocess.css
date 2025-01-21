@@ -51,7 +51,15 @@
     align-self: center;
 }
 
+.process-img-mobile {
+    display: none;
+}
+
 .process-img img {
+    border-radius: 8px;
+}
+
+.process-img-mobile img {
     border-radius: 8px;
 }
 
@@ -107,11 +115,18 @@
 
     .process-text-content {
         justify-self: center;
-        text-align: center;
+        text-align: start;
     }
 
     .process-img {
+        display: none;
+    }
+    
+    .process-img-mobile {
+        display: flex;
         max-width: 90vw;
+        overflow: hidden;
+        margin-left: 10vw;
     }
 
     .process-img img {
