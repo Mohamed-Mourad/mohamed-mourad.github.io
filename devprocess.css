@@ -107,7 +107,7 @@
 
     .process-text-content {
         justify-self: center;
-        text-align: center;
+        text-align: start;
     }
 
     .process-img {
