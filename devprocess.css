@@ -125,11 +125,11 @@
     .process-img-mobile {
         display: flex;
         max-width: 90vw;
-        overflow: clip;
+        overflow: hidden;
         margin-left: 10vw;
     }
 
     .process-img img {
-        max-width: 90vw;
+        max-width: 80vw;
     }
 }
