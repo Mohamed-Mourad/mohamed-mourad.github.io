@@ -111,6 +111,8 @@
         display: flex;
         flex-direction: column;
         height: auto;
+        width: 100vw;
+        max-width: 100vw;
     }
 
     .process-text-content {
