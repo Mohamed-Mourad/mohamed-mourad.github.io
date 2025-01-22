@@ -49,23 +49,24 @@
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     padding: 8px;
-    margin-bottom: 1rem;
-}
-
-.project-type-heading {
-    font-size: 1.2rem;
-    margin: 0;
-    padding-bottom: 0.2rem;
-}
-
-.project-type-description {
-    margin: 0;
+    margin-bottom: 0.5rem;
 }
 
 .project-type-icon img {
     max-width: 100%;
     max-height: 100%;
     filter: invert(29%) sepia(96%) saturate(2676%) hue-rotate(203deg) brightness(95%) contrast(85%);
+}
+
+.project-type-heading {
+    font-size: 1.2rem;
+    margin: 0;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.project-type-description {
+    margin: 0;
 }
 
 
