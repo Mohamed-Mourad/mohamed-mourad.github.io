@@ -49,6 +49,7 @@
     grid-area: I;
     justify-self: center;
     align-self: center;
+    width: 70%;
 }
 
 .process-img-mobile {
@@ -57,6 +58,7 @@
 
 .process-img img {
     border-radius: 8px;
+    width: 100%;
 }
 
 .process-img-mobile img {
