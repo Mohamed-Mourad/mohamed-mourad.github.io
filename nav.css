@@ -80,7 +80,7 @@
     background-size: 200% 200%; /* Expand background for animation */
     background-position: 0% 50%; /* Initial position */
     border-radius: 50px;
-    font-size: 16px;
+    font-size: 1rem;
     cursor: pointer;
     transition: background-position 0.5s ease; /* Smooth background transition */
 }
@@ -127,7 +127,7 @@
 
 .mobile-menu a {
     margin: 20px 0;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-decoration: none;
     color: black;
 }
