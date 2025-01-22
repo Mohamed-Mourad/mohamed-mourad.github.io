@@ -54,6 +54,12 @@
 
 .project-type-heading {
     font-size: 1.2rem;
+    margin: 0;
+    padding-bottom: 0.2rem;
+}
+
+.project-type-description {
+    margin: 0;
 }
 
 .project-type-icon img {
