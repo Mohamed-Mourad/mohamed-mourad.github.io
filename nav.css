@@ -68,7 +68,7 @@
     align-items: center;
 }
 
-.navbar .contact .contact-btn {
+.contact-btn {
     display: flex;
     align-items: center;
     padding: 10px 20px;
@@ -85,17 +85,17 @@
     transition: background-position 0.5s ease; /* Smooth background transition */
 }
 
-.navbar .contact .contact-btn .arrow {
+.contact-btn .arrow {
     margin-left: 10px;
     font-size: 18px;
     transition: transform 0.3s ease;
 }
 
-.navbar .contact .contact-btn:hover {
+.contact-btn:hover {
     background-position: 100% 50%; /* Move gradient to the right */
 }
 
-.navbar .contact .contact-btn:hover .arrow {
+.contact-btn:hover .arrow {
     transform: translateX(5px);
 }
 
@@ -116,6 +116,13 @@
     background-color: white;
     z-index: 1000;
     padding-top: 80px;
+}
+
+.mobile-menu-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
 }
 
 .mobile-menu a {

@@ -1,6 +1,7 @@
 const navbar = document.getElementById('navbar');
 const mobileMenu = document.getElementById('mobile-menu');
 const menuIcon = document.getElementById('menu-icon');
+const closeMenuIcon = document.getElementById("close-menu-icon");
 const firstSection = document.getElementById('first-section');
 
 let lastScrollTop = 0;
@@ -36,5 +37,9 @@ window.addEventListener('scroll', () => {
 });
 
 menuIcon.addEventListener('click', () => {
-  mobileMenu.style.display = mobileMenu.style.display === 'flex' ? 'none' : 'flex';
+  mobileMenu.style.display = mobileMenu.style.display = 'flex';
+});
+
+closeMenuIcon.addEventListener('click', () => {
+  mobileMenu.style.display = mobileMenu.style.display = 'none';
 });
