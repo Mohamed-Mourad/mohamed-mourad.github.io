@@ -1,6 +1,6 @@
 /* General container styles */
 .highlighted-projects-section {
-    height: 100vh;
+    height: auto;
 }
 
 .highlighted-projects-section {
@@ -50,6 +50,10 @@
     border-radius: 8px;
     padding: 8px;
     margin-bottom: 1rem;
+}
+
+.project-type-heading {
+    font-size: 1.2rem;
 }
 
 .project-type-icon img {
