@@ -69,6 +69,16 @@
     margin: 0;
 }
 
+.project-heading {
+    font-size: 1.2rem;
+    margin: 0;
+    padding-top: 0.2rem;
+}
+
+.project-description {
+    margin: 0;
+}
+
 .carousel-container {
     max-width: 1044px;
     margin: 0 auto;
@@ -93,7 +103,7 @@
     overflow: hidden;
     padding: 0;
     position: absolute;
-} 
+}
 
 .carousel__slides {
     position: relative;
@@ -121,6 +131,7 @@
 
 .carousel__slide figure {
     display: flex;
+    flex-direction: row;
     margin: 0;
 }
 
@@ -129,7 +140,7 @@
     width: 100%;
 }
 
-.carousel__slide div:before {
+.carousel__slide .carousel-slide-img:before {
     display: block;
     content: "";
     width: 100%;
@@ -234,17 +245,17 @@
 }
 
 .carousel-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  height: 24px;
-  width: 24px;
-  border-radius: 50%;
-  border: none;
-  background-color: #333333a2;
-  color: white;
-  cursor: pointer;
-  z-index: 4;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    border: none;
+    background-color: #333333a2;
+    color: white;
+    cursor: pointer;
+    z-index: 4;
 }
 
 #prev {
@@ -254,8 +265,6 @@
 #next {
     right: 1rem;
 }
-
-
 
 @media (max-width: 768px) {
     .highlighted-projects-section {
@@ -268,4 +277,26 @@
     .project-types {
         flex-direction: column;
     }
+
+    .carousel__slide .fig-container{
+        max-width: 70vw;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .carousel__slide figure {
+        flex-direction: column;
+    }
+
+    .carousel__slide figcaption {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .carousel-thumbnails-container {
+        max-width: 70vw;
+        overflow-x: scroll;
+    }
+
 }
