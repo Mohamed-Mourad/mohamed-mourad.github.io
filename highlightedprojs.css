@@ -197,7 +197,7 @@
 
 .carousel__thumbnails li {
     flex: 1 1 auto;
-    max-width: calc((100% / 6) - 20px);
+    max-width: calc((100% / 6) - 0.25rem);
     margin: 0 10px;
     transition: all 300ms ease-in-out;
     z-index: 2;
