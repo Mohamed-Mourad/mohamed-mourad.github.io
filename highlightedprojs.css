@@ -299,9 +299,8 @@
         margin: 0;
     }
 
-    .carousel-thumbnails-container {
-        max-width: 70vw;
-        overflow-x: scroll; 
+    .carousel__thumbnails li {
+        width: calc((100% / 3) - 0.25rem);
+        margin: 0 0.2rem;
     }
-
 }
