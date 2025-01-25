@@ -299,8 +299,17 @@
         margin: 0;
     }
 
+    .carousel-thumbnails-container {
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+    }
+
     .carousel__thumbnails li {
         width: calc((100% / 3) - 0.25rem);
         margin: 0 0.2rem;
+    }
+
+    .carousel-btn {
+        display: none;
     }
 }
