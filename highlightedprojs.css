@@ -262,6 +262,14 @@
     z-index: 4;
 }
 
+.icon-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.25rem;
+    gap: 0.25rem;
+    align-self: start;
+}
+
 #prev {
     left: 1rem;
 }
