@@ -324,3 +324,11 @@
         display: none;
     }
 }
+
+
+@media (min-width: 1440px) {
+    .highlighted-projects-section {
+        padding-left: 20rem;
+        padding-right: 20rem;
+    }
+}
