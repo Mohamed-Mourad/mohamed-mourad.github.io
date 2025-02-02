@@ -178,6 +178,10 @@
     padding-top: 0.2rem;
 }
 
+.icon-row img {
+    border-radius: 2px;
+}
+
 .carousel__slide .credit {
     margin-top: 1rem;
     color: rgba(0, 0, 0, 0.5);
